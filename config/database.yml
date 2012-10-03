@@ -44,6 +44,7 @@ test:
   encoding: unicode
   database: microblog_test
   pool: 5
+  host: localhost
   username: microblog
   password:
 
@@ -52,5 +53,6 @@ production:
   encoding: unicode
   database: microblog_production
   pool: 5
+  host: localhost
   username: microblog
   password:
